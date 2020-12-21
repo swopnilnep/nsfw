@@ -21,7 +21,7 @@ function start() {
   `;
   document.getElementById("top").innerHTML = "Remembering the Legendary Carlton Dance";
   document.getElementById("bottom").innerHTML = "";
-  document.title = "The Carlton Dance | Swopnil Shrestha|;
+  document.title = "The Carlton Dance | Swopnil Shrestha";
 
 
 }
