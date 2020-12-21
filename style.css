@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito:300");
+body {
+  background: #fff;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Nunito', sans-serif;
+}
+
+
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:26px;
+	font-weight:bold;
+	padding:28px 49px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	background-color:#f6f6f6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+        
+.play-music {
+  display: -webkit-box;
+  display: flex;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  z-index: 50;
+}
+
+.music-animation {
+  display: -webkit-box;
+  display: flex;
+  margin-right: 10px;
+  -webkit-box-align: end;
+          align-items: flex-end;
+  position: relative;
+  top: -5px;
+}
+.music-animation.on .bar {
+  -webkit-animation: bar 1.2s infinite;
+          animation: bar 1.2s infinite;
+}
+.music-animation.on .bar2 {
+  -webkit-animation-delay: .1s;
+          animation-delay: .1s;
+}
+.music-animation.on .bar3 {
+  -webkit-animation-delay: .2s;
+          animation-delay: .2s;
+}
+.music-animation.on .bar4 {
+  -webkit-animation-delay: .3s;
+          animation-delay: .3s;
+}
+.music-animation.on .bar5 {
+  -webkit-animation-delay: .4s;
+          animation-delay: .4s;
+}
+
+.music-toggle {
+  cursor: pointer;
+  font-size: 20px;
+  position: relative;
+}
+.music-toggle:after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 0;
+  background-color: #000;
+  position: absolute;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+.music-toggle:hover:after {
+  width: 100%;
+}
+
+
+
+.bar {
+  width: 1px;
+  background-color: #000;
+  height: 2px;
+  display: block;
+  margin: 0 1px;
+}
+
+#top {
+  position: absolute;
+  top: 20px;
+  z-index: 50;
+}
+
+#bottom {
+  position: absolute;
+  bottom: 20px;
+  z-index: 50;
+}
+
+@-webkit-keyframes bar {
+  0% {
+    height: 4px;
+  }
+  50% {
+    height: 14px;
+  }
+  100% {
+    height: 4px;
+  }
+}
+
+@keyframes bar {
+  0% {
+    height: 4px;
+  }
+  50% {
+    height: 14px;
+  }
+  100% {
+    height: 4px;
+  }
+}
