@@ -1,14 +1,4 @@
-// Pure CSS dance animation (no graphics included)
 
-// Designed by Gustavo Viselner
-// https://dribbble.com/shots/3979515-It-s-not-unusual
-
-// Thanks for Una Kravets for Sass Pixel Art technique
-// https://una.im/sass-pixel-art/
-
-// Making time ~ 7 hours
-
-// Some Js for audio toggle
 
 var music = document.getElementById("music");
 var isPlaying = false;
@@ -31,6 +21,7 @@ function start() {
   `;
   document.getElementById("top").innerHTML = "Remembering the Legendary Carlton Dance";
   document.getElementById("bottom").innerHTML = "";
+  document.title = "The Carlton Dance | Swopnil Shrestha|;
 
 
 }
