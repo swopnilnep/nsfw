@@ -16,9 +16,9 @@ function start() {
       <span class="bar bar4"></span>
       <span class="bar bar5"></span>
     </div>
-    <div class="music-toggle"><a onClick="togglePlay()" id="toggle" data-text-swap="Music on">Music off</a></div>
   </div>
   `;
+ 
   document.getElementById("top").innerHTML = "Remembering the Legendary Carlton Dance";
   document.getElementById("bottom").innerHTML = "";
   document.title = "The Carlton Dance | Swopnil Shrestha";
