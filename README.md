@@ -4,6 +4,6 @@ Just for laughs.
 
 ---
 
-Licensed MIT
+Licensed WTFPL.
 
-Idea credits to @UncleGreg.
+Idea credits to [@UncleGreg](https://github.com/UncleGreg).
