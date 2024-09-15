@@ -35,14 +35,14 @@ function togglePlay() {
 };
 
 
-// music.onplaying = function() {
-//   isPlaying = true;
-//   document.getElementById("music-animation").classList.add('on')
-// };
-// music.onpause = function() {
-//   isPlaying = false;
-//   document.getElementById("music-animation").classList.remove('on')
-// };
+music.onplaying = function() {
+  isPlaying = true;
+  document.getElementById("music-animation").classList.add('on')
+};
+music.onpause = function() {
+  isPlaying = false;
+  document.getElementById("music-animation").classList.remove('on')
+};
 
 var button = document.getElementById("toggle");
 button.addEventListener('click', function() {
